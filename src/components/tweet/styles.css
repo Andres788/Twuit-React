@@ -1,0 +1,103 @@
+.tweet-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 0 1em;
+    margin: 0 auto;
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+.row1 {
+
+    display: flex;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 5px;
+
+}
+.col {
+    width: calc(100%/3);
+}
+.c1 {
+    flex-basis: 15%;
+
+}
+.c4 {
+    justify-content: right;
+    width: 10%;
+
+}
+.c1 > img {
+    border-radius: 50%;
+    display: block;
+    width: 100%;
+}
+
+.c2 {
+    width: 100%;
+    padding: 0 15px;
+
+}
+
+.c2 > h6 {
+    text-align: left;
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+.row > .content {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+}
+.t-icon > svg {
+    height: 30px;
+    transition: 400ms;
+}
+.t-icon:hover {
+    background-color: #a8a7a700;
+}
+.t-icon:hover > svg {
+    color: rgba(29,161,242,1.00);
+    transition: 400ms;
+}
+.selected {
+    font-size: 15px;
+
+}
+.selected > svg {
+    color: rgba(29,161,242,1.00);
+}
+
+.contextual-dropdown {
+    width: 65%;
+    background-color: white;
+    box-shadow: 1px 1px 8px #909090;
+    border-radius: 4px;
+}
+.contextual-container {
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+.menu > svg {
+    width: 20px;
+}
+.menuDelete:hover {
+    background: rgb(233, 227, 227);
+}
+.fecha {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.marginBottom{
+    margin-bottom: 55px;
+}
